@@ -14,3 +14,6 @@ Try running some of the following tasks:
   npx prettier '**/*.{json,sol,md}' --write
   npx solhint 'contracts/**/*.sol'
   npx solhint 'contracts/**/*.sol' --fix
+
+To deploy to a live network and verify your contract on Etherscan, copy the .env.template file to a file named .env, then edit it to fill in your Etherscan API key and Alchemy URL, and then do:
+  
